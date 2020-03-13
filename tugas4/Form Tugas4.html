@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>1708561004_I Dewa Gede Rama Satya</title>
+	</head>
+	
+	<style>
+		.button
+		{
+		  padding: 8px;
+		  font-size: 14px;
+		  text-align: center;
+		  cursor: pointer;
+		  outline: none;
+		  color: #fff;
+		  background-color: #fc0703;
+		  border: none;
+		  border-radius: 10px;
+		  box-shadow: 3px 3px #999;
+		}
+
+		.button:hover {background-color: #fc5203}
+
+		.button:active
+		{
+		  background-color: #fc5203;
+		  box-shadow: 0 5px #666;
+		  transform: translateY(4px);
+		}
+	</style>
+	
+	<body>
+		<h2><b>TUGAS</b></h2>
+		<form action="action.html" method="post">
+			<fieldset>
+				<table>
+				<legend><b>Form Utuh</b></legend>
+					<tr>
+						<td>Username</td>
+						<td> </td>
+						<td>:</td>
+						<td> </td>
+							<td><input type="text" name="username" placeholder="Username"/></td>
+					</tr>
+					
+					<tr>
+						<td>Password</td>
+						<td> </td>
+						<td>:</td>
+						<td> </td>
+							<td><input type="password" name="password" placeholder="Password"/></td>
+					</tr>
+					
+					<tr>
+						<td>Gender</td>
+						<td> </td>
+						<td>:</td>
+						<td> </td>
+						<td>
+							<input type="radio" name="gender" value="Male"/>Male
+							<input type="radio" name="gender" value="Female"/>Female
+						</td>
+					</tr>
+					
+					<tr>
+						<td>Hobby</td>
+						<td> </td>
+						<td>:</td>
+						<td> </td>
+						<td>
+							<input type="checkbox" name="hobby" value="Coding"/>Coding
+							<input type="checkbox" name="hobby" value="Design"/>Design
+						</td>
+					</tr>
+					
+					<tr>
+						<td>Combo Box</td>
+						<td> </td>
+						<td>:</td>
+						<td> </td>
+						<td>
+							<select>
+								<option value="Bali" selected="selected">Bali</option>
+								<option value="Jawa">Jawa</option>
+								<option value="Sumatera">Sumatera</option>
+							</select>
+						</td>
+					</tr>
+					
+					<tr>
+						<td>Textarea</td>
+						<td> </td>
+						<td>:</td>
+						<td> </td>
+						<td>
+							<textarea name="textarea"></textarea>
+						</td>
+					</tr>
+				</table>
+				<br>
+				<button class="button">Submit!</button>
+			</fieldset>
+		</form>
+	</body>
+</html>
