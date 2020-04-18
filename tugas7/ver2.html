@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link rel="stylesheet" type="text/css" href="kalkulator.css" />
+		<title>1708561004_I Dewa Gede Rama Satya</title>
+    </head>
+	
+    <body style="background-color:powderblue;">
+		<h1><center><b>KALKULATOR JAVASCRIPT</b></center></h1>
+		<h3><center><b>OLEH:</b></center></h3>
+		<h3><center><b>I DEWA GEDE RAMA SATYA (1708561004)</b></center></h3>
+		<br>
+		<div id='frame'>	  
+			<form name="kalkulator">
+				<input type = "reset" value="Clear">
+				<input type = "text" name = "bilangan"/>
+				<br>
+				<input type = "button" value = "+" onclick = "kalkulator.bilangan.value += '+'" />
+				<input type = "button" value = "-" onclick = "kalkulator.bilangan.value += '-'" />
+				<input type = "button" value = ":" onclick = "kalkulator.bilangan.value += '/'" />
+				<input type = "button" value = "x" onclick = "kalkulator.bilangan.value += '*'" />
+				<br>
+				<br>
+				<input type = "button" value = "=" onclick = "kalkulator.bilangan.value = eval(kalkulator.bilangan.value)"/>
+			</form>			
+		</div>
+		
+		<div id="versi">
+			<a href="index.html"><input type = "button" value = "Versi 1" onClick = "ver1()"/></a>
+		</div>
+    </body>
+	<script type="text/javascript" src="kalkulator.js"></script>
+</html>
