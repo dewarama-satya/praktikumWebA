@@ -1,0 +1,58 @@
+body
+{
+	background-color: #F4F4EB;
+}
+
+fieldset
+{
+	position: relative;
+	width: 400px;
+	border: 2px solid blue;
+	border-radius: 27px;
+	background-color: #AED6F1;
+	margin: 0px auto;
+	padding: 20px 20px 40px 20px;  
+}
+
+input[type = text] 
+{
+	position: relative;
+	display: block;
+	width: 360px;
+	margin: 5px auto;
+	font-size: 14px;
+	padding: 10px;
+	box-shadow: 4px 0px 12px white outset;
+}
+input[type=text]:active
+{
+	background-color: #00A2F8;
+	box-shadow: 0 2px #6291AA;
+}
+input[type=text]:hover
+{
+	background-color: powderblue;
+	color: white;
+}
+
+input[type=button]:active
+{
+	background-color: #00A2F8;
+	box-shadow: 0 2px #6291AA;
+}
+input[type=button]:hover
+{
+	background-color: #3E8CB6;
+	color: white;
+}
+
+input[type=reset]:active
+{
+	background-color: #00A2F8;
+	box-shadow: 0 2px #6291AA;
+}
+input[type=reset]:hover
+{
+	background-color: #3E8CB6;
+	color: white;
+}
