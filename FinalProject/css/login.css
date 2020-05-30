@@ -1,0 +1,114 @@
+.header ul{
+	border: 1px solid #142850;
+	padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    background-color: #142850;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.header li{
+    float: left;
+}
+.header li a {
+    display: block;
+    color: #DC8239;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: auto;
+    background-color: #142850;
+}
+.header li a:hover {
+    background-color: #dae1e7;
+    transition-duration: 2s;
+}
+
+h1 {
+	margin-top: 81px;
+	text-align: center;
+	color: #142850;
+}
+#login_box{
+	border: 1px solid #00909e;
+	height: auto;
+	width: 330px;
+	margin: 50px auto;
+	background-color: #142850;
+	border-radius: 20px;
+}
+#login_box h2{
+	text-align: center;
+	color: #dae1e7;
+	background-color: #142850;
+}
+form{
+	margin: 50px 50px;
+	background-color: #142850;
+}
+label{
+	font-size: 16px;
+	color: #dae1e7;
+	background-color: #142850;
+}
+form input[type=text]{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+form input[type=password]{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+form input[type=submit]{
+	width: auto;
+	height: 30px;
+	font-size: 14px;
+	margin-bottom: 1%;
+	background-color: #00909e;
+	color:#ffffff;
+	border: 2px solid #27496d;
+	cursor: pointer;
+}
+#footer{
+	width: auto;
+	height: 70px;
+	background-color: #5AC8FF;
+	border-radius: 8px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+#footer p {
+	color:white;
+	padding: 30px ;
+	text-align: center;
+}
+.button
+{
+	background-color: #5AC8FF;
+	border: none;
+	color: white;
+	padding: 15px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	border-radius: 10px;
+	margin-left: 17px;
+}
